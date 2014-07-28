@@ -1,0 +1,4 @@
+sindimanager
+============
+
+Projeto Sindicate Manager
