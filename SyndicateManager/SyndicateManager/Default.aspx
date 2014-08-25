@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <link rel="Stylesheet" type="text/css" href="StyleSheet1.css" />
+    <title>Login - SyndicateManager</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -24,7 +25,7 @@
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button1" runat="server" onclick="Button1_Click" 
-            style="margin-left: 0px" Text="Cadastrar" />
+             Text="Cadastrar" />
     
     </div>
     </form>

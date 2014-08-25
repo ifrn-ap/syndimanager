@@ -3,3 +3,8 @@ C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\Syndi
 C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.dll
 C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.pdb
+C:\Users\AlfredoHAC\Documents\syndimanager\SyndicateManager\SyndicateManager\bin\SyndicateManager.dll
+C:\Users\AlfredoHAC\Documents\syndimanager\SyndicateManager\SyndicateManager\bin\SyndicateManager.pdb
+C:\Users\AlfredoHAC\Documents\syndimanager\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.csprojResolveAssemblyReference.cache
+C:\Users\AlfredoHAC\Documents\syndimanager\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.dll
+C:\Users\AlfredoHAC\Documents\syndimanager\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.pdb
