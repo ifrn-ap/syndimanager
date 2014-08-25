@@ -1,0 +1,5 @@
+C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\bin\SyndicateManager.dll
+C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\bin\SyndicateManager.pdb
+C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.dll
+C:\Users\AlfredoHAC\Documents\Visual Studio 2010\Projects\SyndicateManager\SyndicateManager\obj\Debug\SyndicateManager.pdb
