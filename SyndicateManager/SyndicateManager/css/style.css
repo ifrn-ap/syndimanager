@@ -1,0 +1,85 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+div#header {
+	background: url("../imagens/fundo_header.jpg") repeat-x;
+	height: 122px;
+}
+
+div#logo_sm {
+	width: 500px;
+	margin: auto;
+}
+
+div#logo_sm img {
+	width: 500px;
+	height: 100px;
+	margin: 11px auto;
+}
+
+div#navbar {
+	display: block;
+	background-color: #d22000;
+	height: 27px;
+
+}
+
+ul#menu {
+	display:block;
+	width: 600px;
+	margin:0px auto;	
+}
+
+ul#menu li{
+	float: left;
+	display:block;
+	position: relative;
+}
+
+ul#menu li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+	padding: 3.7px 18px;
+	display:block;
+}
+
+ul#menu li:hover {
+	border-bottom: none;
+	background-color: #f02000;
+}
+
+ul#menu li:hover ul{
+	display:block;
+}
+
+ul#menu li ul{
+	border: 1px solid #b42000;
+	display:none;
+	position: absolute;
+	background-color: #d22000;
+	width: 250px;
+	left: -30%;
+	top: 26px;
+}
+
+ul#menu li ul li{	
+	float: none;
+	border: none;
+}
+
+div#content {
+	margin: 15px 10px 0px 10px;
+	min-height: 800px;
+}
+
+div#footer{
+	clear:both;
+	height: 100px;
+}
+
+img#rodape_site {
+	width: 99.99%;
+	margin-top: 5px;
+}
