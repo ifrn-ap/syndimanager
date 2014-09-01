@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using SyndicateManager.classes;
 
 namespace SyndicateManager.paginas
 {
@@ -13,5 +14,17 @@ namespace SyndicateManager.paginas
         {
 
         }
+
+        protected void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtMatricula.Text = "";
+            txtSenha.Text = "";
+        }
+
+        protected void btnLogar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }

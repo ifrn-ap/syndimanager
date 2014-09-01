@@ -52,7 +52,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="paginas\Default.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style2.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -60,15 +63,22 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="paginas\index.aspx" />
+    <Content Include="paginas\home.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="paginas\Default.aspx.cs">
+    <Compile Include="classes\Associado.cs" />
+    <Compile Include="classes\Sindicato.cs" />
+    <Compile Include="classes\Database.cs" />
+    <Compile Include="classes\Usuario.cs" />
+    <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="paginas\Default.aspx.designer.cs">
+    <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Master Page.Master.cs">
@@ -78,19 +88,18 @@
     <Compile Include="Master Page.Master.designer.cs">
       <DependentUpon>Master Page.Master</DependentUpon>
     </Compile>
-    <Compile Include="paginas\index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="paginas\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="paginas\index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="paginas\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master Page.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
     <Folder Include="imagens\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

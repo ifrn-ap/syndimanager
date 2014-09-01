@@ -13,21 +13,21 @@ namespace SyndicateManager {
     public partial class Site2 {
         
         /// <summary>
-        /// form1 control.
+        /// frmSynManager control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm frmSynManager;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// cphConteudo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphConteudo;
     }
 }
