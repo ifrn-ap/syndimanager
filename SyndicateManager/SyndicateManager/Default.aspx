@@ -10,10 +10,10 @@
 </head>
 <body>
     <div id="header">
-			<a href="#"><div id="logo_sm">
-				<img src="../imagens/logo_sm.png" alt="logo_SydicateManager" /></a>
-			</div></a>	
-		</div>
+			<div id="logo_sm">
+				<a href="#"><img src="../imagens/logo_sm.png" alt="logo_SydicateManager" /></a>
+			</div>
+    </div>
 		
         <div id="content">
 		    <div id="login_box">
@@ -26,7 +26,7 @@
                 <asp:TextBox ID="txtMatricula" runat="server" Height="16px" Width="133px"></asp:TextBox>
                 <br />
                 <br />
-&nbsp;&nbsp;&nbsp;<asp:Label ID="lblSenha" runat="server" Font-Names="Verdana" 
+&nbsp;&nbsp; <asp:Label ID="lblSenha" runat="server" Font-Names="Verdana" 
                 Font-Size="Small" Text="Senha"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="txtSenha" runat="server" Height="16px" TextMode="Password" 
@@ -39,11 +39,9 @@
                 <br />
                 <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="btnLogar" runat="server" Text="Logar" Width="57px" 
-                    onclick="btnLogar_Click" UseSubmitBehavior="False" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="btnLimpar" runat="server" Text="Limpar" Width="70px" 
-                onclick="btnLimpar_Click" CausesValidation="False" UseSubmitBehavior="False" />
+                &nbsp;<asp:Button ID="btnLogin" runat="server" Text="Login" Width="60px" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="btnLimpar" runat="server" Text="Limpar" Width="60px" />
                 </form>
 		    </div>
         </div>

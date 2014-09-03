@@ -1,11 +1,11 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master Page.Master.cs" Inherits="SyndicateManager.Site2" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master Page.master.cs" Inherits="SyndicateManager.Master_Page" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<title>Pagina Inicial - SyndicateManager</title>
 </head>
 <body>
@@ -17,44 +17,47 @@
 		
 		<div id="navbar">
 			<ul id="menu">
-				<li><a href="#">Pagina Inicial</a></li>
-				<li><a href="#">Cadastro</a>
+				<li><a href="home.aspx">Pagina Inicial</a></li>
+				<li><a>Cadastro</a>
 					<ul>
-						<li><a href="#">Cadastro de Associado</a></li>
-						<li><a href="#">Atualização de Cadastro</a></li>
-						<li><a href="#">Remoção de Cadastro</a></li>
+						<li><a href="cadastro.aspx">Cadastro de Associado</a></li>
+						<li><a href="atualizacao.aspx">Atualização de Cadastro</a></li>
+						<li><a href="remover.aspx">Remoção de Cadastro</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Consulta</a>
+				<li><a>Consulta</a>
 					<ul>
-						<li><a href="#">Consulta de Cadastro</a></li>
-						<li><a href="#">Pagamentos em Atraso</a></li>
+						<li><a href="consulta.aspx">Consulta de Cadastro</a></li>
+						<li><a href="pgto_atraso.aspx">Pagamentos em Atraso</a></li>
+					</ul>
+				</li>
+				<li><a >Documentos</a>
+					<ul>
+						<li><a href="transferencia.aspx">Transferência</a></li>
+						<li><a href="aposentadoria.aspx">Aposentadoria</a></li>
+                        <li><a href="carteira.aspx">Carteira de Associado</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Configurações</a>
 					<ul>
-						<li><a href="#">Configurações de conta</a></li>
-						<li><a href="#">Criar conta de Usuário</a></li>						
+						<li><a href="config_conta.aspx">Configurações de conta</a></li>
+						<li><a href="criar_conta.aspx">Criar conta de Usuário</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Sair</a></li>
+				<li><a href="../Default.aspx">Sair</a></li>
 			</ul>
 		</div>
 		
 		<div id="content">
-            <form id="frmSynManager" runat="server">
+        <form id="frmSynManager" runat="server">
                 <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
         
                 </asp:ContentPlaceHolder>
+            </form>
         </div>
 
 		<div id="footer">
 			<img src="../imagens/footer_sistema.png" alt="rodape" id="rodape_site" />
 		</div>
-    
-    <div>
-        
-    </div>
-    </form>
 </body>
 </html>

@@ -10,7 +10,7 @@
 namespace SyndicateManager {
     
     
-    public partial class Site2 {
+    public partial class Master_Page {
         
         /// <summary>
         /// frmSynManager control.

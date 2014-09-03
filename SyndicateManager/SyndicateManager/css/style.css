@@ -27,8 +27,9 @@ div#navbar {
 
 ul#menu {
 	display:block;
-	width: 600px;
-	margin:0px auto;	
+	width: 730px;
+	margin:0px auto;
+	cursor: default;
 }
 
 ul#menu li{
@@ -71,7 +72,7 @@ ul#menu li ul li{
 
 div#content {
 	margin: 15px 10px 0px 10px;
-	min-height: 800px;
+	min-height: 530px;
 }
 
 div#footer{
@@ -82,4 +83,11 @@ div#footer{
 img#rodape_site {
 	width: 99.99%;
 	margin-top: 5px;
+}
+
+div#formulario 
+{
+    width: 540px;
+    margin: 0px auto;
+    padding: 0px auto;
 }

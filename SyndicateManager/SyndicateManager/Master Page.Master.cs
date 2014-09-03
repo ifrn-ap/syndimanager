@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SyndicateManager
 {
-    public partial class Site2 : System.Web.UI.MasterPage
+    public partial class Master_Page : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

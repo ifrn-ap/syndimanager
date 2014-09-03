@@ -67,13 +67,13 @@ namespace SyndicateManager.paginas {
         protected global::System.Web.UI.WebControls.Label lblFalhou;
         
         /// <summary>
-        /// btnLogar control.
+        /// btnLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogar;
+        protected global::System.Web.UI.WebControls.Button btnLogin;
         
         /// <summary>
         /// btnLimpar control.
