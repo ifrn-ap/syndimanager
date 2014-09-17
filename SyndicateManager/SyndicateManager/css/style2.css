@@ -12,7 +12,9 @@ div#logo_sm {
 	margin: auto;
 }
 
-div#logo_sm img {
+div#logo_sm img 
+{
+    border: none;
 	width: 500px;
 	height: 100px;
 	margin: 11px auto;
@@ -22,9 +24,9 @@ div#content {
 	min-height: 364px;
 }
 
-div#login_box {
+fieldset 
+{
 	padding: 5px;
-	border: 1px solid black;
 	width: 310px;
 	height: 170px;
 	margin: 50px auto 0px auto;
@@ -36,7 +38,8 @@ div#login_box a{
 	margin-left: 10px;
 }
 
-div#footer{
+div#footer
+{
 	clear:both;
 	height: 100px;
 }
@@ -44,4 +47,51 @@ div#footer{
 img#rodape_site {
 	width: 99.99%;
 	margin-top: 162px;
+}
+
+.text_box 
+{
+   text-align: center;
+   margin: 20px 5px; 
+}
+
+#falha
+{
+    text-align: center;
+    margin: 20px 0px;   
+}
+
+#button 
+{
+    text-align: center;
+}
+
+.button 
+{
+   padding: 3px;
+   border: none;
+   border-radius: 3px;
+   background-color: #d22000;
+   color: white;
+   margin: 5px 12px 0px;
+}
+
+.button:hover 
+{
+    background-color: #f02000;
+    cursor: pointer;
+}
+
+
+.label 
+{   
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+
+.input 
+{
+    width: 50%;
+    
 }

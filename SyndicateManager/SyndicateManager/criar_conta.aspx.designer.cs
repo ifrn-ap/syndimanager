@@ -7,19 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SyndicateManager.paginas {
+namespace SyndicateManager.Css {
     
     
-    public partial class WebForm1 {
-        
-        /// <summary>
-        /// frmSynManager control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frmSynManager;
+    public partial class criar_conta {
         
         /// <summary>
         /// lblMatricula control.
@@ -31,13 +22,13 @@ namespace SyndicateManager.paginas {
         protected global::System.Web.UI.WebControls.Label lblMatricula;
         
         /// <summary>
-        /// txtMatricula control.
+        /// txtLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMatricula;
+        protected global::System.Web.UI.WebControls.TextBox txtLogin;
         
         /// <summary>
         /// lblSenha control.
@@ -58,30 +49,12 @@ namespace SyndicateManager.paginas {
         protected global::System.Web.UI.WebControls.TextBox txtSenha;
         
         /// <summary>
-        /// lblFalhou control.
+        /// btnCriar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFalhou;
-        
-        /// <summary>
-        /// btnLogin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
-        
-        /// <summary>
-        /// btnLimpar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLimpar;
+        protected global::System.Web.UI.WebControls.Button btnCriar;
     }
 }

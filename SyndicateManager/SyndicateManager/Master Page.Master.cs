@@ -11,7 +11,7 @@ namespace SyndicateManager
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.Title = "SyndicateManager";
         }
     }
 }

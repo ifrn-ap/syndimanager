@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SyndicateManager.paginas {
+namespace SyndicateManager {
     
     
     public partial class home {
@@ -20,5 +20,17 @@ namespace SyndicateManager.paginas {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUsuario;
+        
+        /// <summary>
+        /// PreviousPage property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new SyndicateManager.login PreviousPage {
+            get {
+                return ((SyndicateManager.login)(base.PreviousPage));
+            }
+        }
     }
 }

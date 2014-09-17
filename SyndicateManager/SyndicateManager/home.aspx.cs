@@ -4,14 +4,18 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using SyndicateManager;
 
-namespace SyndicateManager.paginas
+namespace SyndicateManager
 {
     public partial class home : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (lblUsuario.Text == String.Empty)
+            {
+                lblUsuario.Text = Session["usuario"].ToString();
+            }
         }
     }
 }

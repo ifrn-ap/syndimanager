@@ -6,13 +6,15 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<title>Pagina Inicial - SyndicateManager</title>
+    <link href="Css/style3.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    
     <div id="header">
 			<a href="#"><div id="logo_sm">
-				<img src="../imagens/logo_sm.png" alt="logo_SydicateManager" /></a>
-			</div></a>
+				<img src="imagens/logo_sm.png" alt="logo_SydicateManager" />
+			</a>
+            </div>
 		</div>
 		
 		<div id="navbar">
@@ -33,31 +35,29 @@
 				</li>
 				<li><a >Documentos</a>
 					<ul>
-						<li><a href="transferencia.aspx">Transferência</a></li>
-						<li><a href="aposentadoria.aspx">Aposentadoria</a></li>
-                        <li><a href="carteira.aspx">Carteira de Associado</a></li>
+						<li><a href="ficha.aspx">Ficha do Associado</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Configurações</a>
 					<ul>
-						<li><a href="config_conta.aspx">Configurações de conta</a></li>
+						<li><a href="alterar_senha.aspx">Alterar Senha</a></li>
 						<li><a href="criar_conta.aspx">Criar conta de Usuário</a></li>
 					</ul>
 				</li>
-				<li><a href="../Default.aspx">Sair</a></li>
+				<li><a href="login.aspx">Sair</a></li>
 			</ul>
 		</div>
 		
 		<div id="content">
-        <form id="frmSynManager" runat="server">
+            <form id="frmSynManager" runat="server" autocomplete="off">
                 <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
         
                 </asp:ContentPlaceHolder>
-            </form>
+             </form>
         </div>
 
 		<div id="footer">
-			<img src="../imagens/footer_sistema.png" alt="rodape" id="rodape_site" />
+			<img src="imagens/footer_sistema.png" alt="rodape" id="rodape_site" />
 		</div>
 </body>
 </html>
