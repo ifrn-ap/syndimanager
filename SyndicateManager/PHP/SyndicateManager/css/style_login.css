@@ -1,0 +1,129 @@
+﻿/* ----------Geral---------- */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+/* ----------Header---------- */
+
+div#header {
+	height: 100%;
+}
+
+div#logo_sm {
+	width: 500px;
+	margin: auto;
+}
+
+div#logo_sm img 
+{
+    border: none;
+	width: 500px;
+	height: 110px;
+	margin: 11px auto;
+}
+
+/* ----------Content---------- */
+
+div#content {
+	min-height: 364px;
+}
+
+fieldset 
+{
+	padding: 5px;
+	width: 15%;
+	height: 25%;
+	margin: 50px auto 0px auto;
+}
+
+/* ----------Elementos---------- */
+
+.text_box 
+{
+   text-align: center;
+   margin: 15px 3px; 
+}
+
+#falha
+{
+    text-align: center;
+    margin: 20px 0px;   
+}
+
+#button 
+{
+    text-align: center;
+}
+
+.button 
+{
+	text-decoration: none;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 9px;
+    border-radius: 3px;
+    background-color: #d22000;
+    color: white;
+    margin: 20px 12px 5px;
+}
+
+.button:hover 
+{
+    background-color: #f02000;
+    cursor: pointer;
+}
+
+.label
+{
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	color: #d22000;	
+}
+
+#chkLogado{
+	
+	font-family: Corbel, sans-serif;
+	margin-left: 3px;
+}
+
+/* ----------Icons---------- */
+
+#txtUsuario
+{
+	background: url(../imagens/icons/black/campo_usuario_24px.png)  left no-repeat;
+	padding-left: 26px;
+
+}
+
+#txtSenha
+{
+	background: url(../imagens/icons/black/campo_senha_24px.png) left no-repeat;
+	padding-left: 28px;
+}
+
+#btnLogar
+{
+	background-image: url(../imagens/icons/black/funcao_logar_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 28px;
+}
+
+#btnLimpar
+{
+	background-image: url(../imagens/icons/black/funcao_limpar_campos_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 28px;
+}
+
+.input 
+{
+	background:
+    width: 75%;
+	padding: 5px;
+    
+}

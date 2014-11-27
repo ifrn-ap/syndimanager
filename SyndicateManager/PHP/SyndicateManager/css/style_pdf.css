@@ -1,0 +1,70 @@
+/* ----------Elementos_HTML---------- */
+
+*  {
+	margin:0px;
+	padding:0px;
+}
+ 
+html, body {height:100%;}
+ 
+h3, h2{
+	text-align: center;
+	font-style: italic;	
+}
+ 
+p {
+	text-align: justify;
+	text-indent: 3em;	
+}
+
+span{
+	font-weight: bold;		
+}
+
+
+/* ----------Classes---------- */
+
+.sessoes{
+	padding-top: 5px;	
+}
+
+.campos_cadastro
+{
+    width:33%;
+    float:left;
+	margin-top: 0;
+	margin-bottom: 15px;
+    padding-right: 0;
+}
+
+
+
+/* ----------ID's---------- */
+#direita{
+	text-align: right;
+	margin-top: 25px;
+	margin-bottom: 25px;	
+}
+
+#assinatura{
+	text-align: center;	
+	margin: 0px;
+	padding: 0px;
+}
+
+#texto_assinatura{
+	text-align: center;
+	font-size: 12px;	
+	margin-top: 0px;
+	margin-bottom: 1px;	
+}
+
+#texto{
+	border: 1px black solid;
+	margin-top: 15%;
+	
+}
+ 
+#img_rodape {
+	margin-top: 55%;
+}

@@ -1,0 +1,157 @@
+﻿/* ----------General---------- */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+/* Header da pagina */
+div#header {
+	background: url("../imagens/fundo_header.jpg") repeat-x;
+	height: 122px;
+}
+
+div#logo_sm 
+{
+    border: none;
+	width: 500px;
+	margin: auto;
+}
+
+div#logo_sm img 
+{
+    border: none;
+	width: 500px;
+	height: 100px;
+	margin: 11px auto;
+}
+
+/* barra de navegação */
+div#navbar {
+	display: block;
+	background-color: #d22000;
+	height: 27px;
+	clear: both;
+}
+
+ul#menu {
+	display:block;
+	width: 45%;
+	margin: 0px auto;
+	cursor: default;
+}
+
+ul#menu li{
+	display:block;
+	float: left;
+	position: relative;
+}
+
+ul#menu li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+	padding: 3.7px 18px;
+	display:block;
+}
+
+ul#menu li:hover {
+	border-bottom: none;
+	background-color: #f02000;
+}
+
+ul#menu li:hover ul{
+	display:block;
+}
+
+ul#menu li ul{
+	border: 1px solid #b42000;
+	display:none;
+	position: absolute;
+	background-color: #d22000;
+	width: 250px;
+	left: -30%;
+	top: 26px;
+}
+
+ul#menu li ul li{	
+	float: none;
+	border: none;
+}
+
+/* ----------Content---------- */
+#content {
+	margin: 40px 10px 0px 10px;
+}
+
+/* ----------Icones---------- */
+
+#home{
+	background-image:url(../imagens/icons/black/pagina_inicial_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+}
+
+#cadastro, #criar_conta
+{
+	background-image: url(../imagens/icons/black/criar_conta_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+}
+
+#atualiza, #mudar_senha{
+	background-image: url(../imagens/icons/black/funcao_atualizar_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;	
+}
+
+#remover{
+	background-image: url(../imagens/icons/black/funcao_excluir_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;	
+}
+
+#consulta{
+	background-image: url(../imagens/icons/black/funcao_pesquisa_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;	
+}
+
+#pgto_atraso{
+	background-image: url(../imagens/icons/black/pagamentos_atrasados_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;	
+}
+
+#grupo_familiar{
+	background-image: url(../imagens/icons/black/grupo_familiar.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;	
+}
+
+#documentos{
+	background-image: url(../imagens/icons/black/documentos_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px
+}
+
+#config{
+	background-image: url(../imagens/icons/black/configuracoes_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px
+}
+
+#sair{
+	background-image: url(../imagens/icons/black/funcao_sair_24px.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px
+}
